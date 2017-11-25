@@ -25,7 +25,12 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-Once the extension is installed, simply use it in your code by  :
+Once the extension is installed, simply use  JqueryUiAsset as a dependency class to your own AssetBundle Class :
 
-```php
-<?= \virtualwonders\jui\AutoloadExample::widget(); ?>```
+
+    class BaseAsset extends AssetBundle
+    {
+        public $depends = [
+	       'virtualwonders\jui\JqueryUiAsset',
+        ];
+    }
