@@ -9,7 +9,7 @@ use yii\web\AssetBundle;
  */
 class JqueryUiAsset extends AssetBundle
 {
-	public $sourcePath = '@vendor\virtualwonders\jui\jqueryui';
+	public $sourcePath = '@vendor/virtualwonders/jui/dist';
 	public $css = [
 		'css/jquery-ui.css',
 	];
