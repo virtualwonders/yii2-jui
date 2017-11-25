@@ -1,0 +1,21 @@
+{
+    "name": "virtualwonders/yii2-jui",
+    "description": "Jquery UI library for Virtual Wonders",
+    "type": "library",
+    "keywords": ["yii2","library","jquery-ui"],
+    "license": "BSD-4-Clause",
+    "authors": [
+        {
+            "name": "Davidson Ramos",
+            "email": "dave@virtual-wonders.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "virtualwonders\\jui\\": ""
+        }
+    }
+}
