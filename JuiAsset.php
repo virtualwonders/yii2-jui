@@ -14,6 +14,6 @@ class JuiAsset extends AssetBundle
 		'js/jquery-ui.min.js',
 	];
 	public $depends = [
-		'yii\web\JqueryAsset',
+		'dmstr\web\AdminLteAsset',
 	];
 }
