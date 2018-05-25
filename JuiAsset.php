@@ -7,17 +7,13 @@ use yii\web\AssetBundle;
 /**
  * Main YFP JqueryUiAsset bundle.
  */
-class JqueryUiAsset extends AssetBundle
+class JuiAsset extends AssetBundle
 {
 	public $sourcePath = '@vendor/virtualwonders/yii2-jui/dist';
-	public $css = [
-		'css/jquery-ui.css',
-	];
 	public $js = [
-		'js/jquery-ui.js',
+		'js/jquery-ui.min.js',
 	];
 	public $depends = [
-		'yii\web\YiiAsset',
-		'yii\bootstrap\BootstrapPluginAsset',
+		'yii\web\JqueryAsset',
 	];
 }
